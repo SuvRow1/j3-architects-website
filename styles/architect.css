@@ -15,6 +15,7 @@ a{
  text-decoration: none;
 }
 
+
 /* header section styles */
 header{
  background: #fff;
@@ -47,6 +48,16 @@ nav > ul > li > a {
  font-size: 18px;
 }
 
+.btn-primary1{
+  width: 180px;
+  height: 64px;
+  margin-left: 40%;
+  margin-top: 20px;
+  border-radius: 8px;
+  background: #FF900E;
+
+}
+
 /* banner container styles  */
 
 .banner-container {
@@ -70,50 +81,44 @@ margin-top: 68px;
  p{
   text-align: center;
  }
- button{
-  margin-left: 40%;
-  margin-top: 20px;
-  padding: 10px 20px;
-  border: greenyellow;
-  cursor: pointer;
-}
+
 }
 
 /* main part start here */
-
-/* display: grid;
-grid-template-columns:repeat(1,1fr) ;
-border: 1px solid #ccc;
-gap: 10px;
-width: 342px;
-height: 342px;
+.feature-container{
+display:flex;
+align-items: center;
 border-radius: 8px;
-background: url(<path-to-image>), lightgray -75.122px 0px / 150.038% 100% no-repeat; */
+background: url(<path-to-image>), lightgray -75.122px 0px / 150.038% 100% no-repeat; 
+}
 
 
 
 .feature-img{
  display: grid;
- grid-template-columns: repeat(2,0fr);
- gap: 20px;
+ grid-template-columns: repeat(2,1fr);
+ gap: 24px;
 
+} 
+
+.feature-content{
+  padding-left: 70px;
+  padding-right: 72px;
 }
+.feature-content {
+  h1{
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  p{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .btn-primary2{
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  background: #FF900E;
 
-
-
-h1{
- text-align: center;
-}
-p{
- text-align: center;
-}
-button{
-  margin-left: 40%;
-  margin-top: 20px;
-  padding: 10px 20px;
-  border: greenyellow;
-  cursor: pointer;
- }
-
-
+  }
 }
